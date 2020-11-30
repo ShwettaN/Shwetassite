@@ -1,20 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+    --primary-color: #FACC15;
+    --dark-grey: #94A3B8;
+}
+
 body {
-    color:rgb(5, 157, 168);
-}
-#mainh{
-    color:black;
-
-}
-.para{
-    color:rebeccapurple;
-}
-h1 {
-    color:pink;
-}
-h2{
-    color:rgb(230, 142, 61);
+    font-family: 'Montserrat';
+    margin: 0px;
 }
 
-h3{
-    color:rgb(70, 201, 146);
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding-left: 11rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color)
+}
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* HEADER */
+
+.hero {
+    padding: 2rem;
+
+}
+
+.hero .hero-img {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+
+}
+.hero  .project{
+    max-width: 350px;
+}
+
+.hero .hero-heading {
+    font-size: 3rem;
+    color: var(--dark-grey);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .name {
+    color: #e6357f;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: #E2E8F0;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+}
+.footer .bottom{
+    font-size:35px;
+    font-weight:bold;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer .mailme{
+    padding:2rem;
+    font-size:20px;
+}
+.mail{
+    color:#A3A3A3;
+    font-weight:bold;
 }

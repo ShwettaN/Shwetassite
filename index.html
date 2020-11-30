@@ -1,146 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <style>
-        body{
-        color : red ;                 METHOD 1-to use CSS
-        }
-    </style> -->                        
-    <!--                             METHOD 2 to use CSS -->
-
-    <!-- <h1 style="color:red"> Heyy!! there,This is a component library </h1>  
-       -->
-
-    <!--                             METHOD 3  to use CSS
-        
-        creating a separate file and adding an external link -->
-
-       <link href="styles.css" rel="stylesheet" />
+    <title>Home | Shwettassite</title>
+    <link href="/styles.css" rel="stylesheet" />
 </head>
-
 <body>
-    
-    <h1 id="mainh"> Heyy!! there,This is a component library </h1>
-    <p>I am attending neogcamp and I wantomake a library which would make all my
-        projects look good and consistent.</p>
-
-    <hr>
-
-    <h2>@Typography</h2>
-    <h1 class="para">This is the largest text</h1>
-    <h2 class="para">This is the second largest</h2>
-    <p class="para"> This is the normal text .This is free flowing and will wrap
-        at the end like a paragraph.
-    </p>
-    <small class="para"> This is relatively smaller text</small>
-    <hr>
-    <h2>@Container</h2>
-
-
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
-
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
-
-    <hr>
-    <h2>@Lists</h2>
-
-    <h3> unordered list</h3>
-    <ul>
-        <li> Item One</li>
-        <li> Item Two</li>
-        <li> Item Three</li>
-
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
-    </ul>
-
-    <h3>reverse Unordered list</h3>
-    <ol>
-        <li>Haikyuu</li>
-        <li>Attack on Titan</li>
-        <li>Deathnote</li>
-
-    </ol>
-
-    <hr>
-
-    <h2>@Navigation Bar</h2>
-    <nav>
-        <div>Iambrandname</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">I am a DEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">Blogs</a>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Blogs</a>
             </li>
         </ul>
 
     </nav>
-    <hr>
 
-    <h2>@Header</h2>
-    <header>
-        <img src="images/coder.svg">
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="/images/coder.svg">
+        <h1 class="hero-heading">Hii !! I am <span class="name">Shweta Nere</span> </h1>
         <!-- <img src="images/analyze.svg">
         <img src="images/dev.svg">
         <img src="images/dev2.svg">
         <img src="images/dev3.svg"> -->
 
     </header>
-    <hr>
 
-    <h2>@Sections</h2>
 
-    <section>
-        <h3>White section</h3>
-        <p>This will have white background</p>
-
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>About Me</h1>
+            <p>This will have grey backgroundProgramming is the process of creating a set of instructions that tell a
+                computer how to perform a task. Programming can be done using a variety of computer programming
+                languages, such as JavaScript, Python, and C++. Created by Pamela Fox.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>Off white section</h3>
-        <p>This will have grey background</p>
-
+    <section class="section ">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>This will have grey backgroundProgramming is the process of creating a set of instructions that tell a
+                computer how to perform a task. Programming can be done using a variety of computer programming
+                languages, such as JavaScript, Python, and C++. Created by Pamela Fox.</p>
+        </div>
     </section>
 
-    <hr>
-    <h2>@Footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>Socialone</li>
-            <li>Socialtwo</li>
-            <li>Socialthree</li>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>This will have grey backgroundProgramming is the process of creating a set of instructions that tell a
+                computer how to perform a task. Programming can be done using a variety of computer programming
+                languages, such as JavaScript, Python, and C++. Created by Pamela Fox.</p>
+                <a class="link link-primary" href="/">VIEW PROJECTS</a>
+        </div>
+    </section>
+
+    <section class="section ">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>This will have grey backgroundProgramming is the process of creating a set of instructions that tell a
+                computer how to perform a task. Programming can be done using a variety of computer programming
+                languages, such as JavaScript, Python, and C++. Created by Pamela Fox.</p>
+                <a class="link link-secondary" href="/">VIEW BLOGS</a>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        <div class="footer-heading bottom">Let's get Connected</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Gitub</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Instagram</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Twitter</a>
+            </li>
+            <div class="footer-heading mailme">Or write to me at: <span class="mail">shwetanere2014@gmail.com</span></div>
         </ul>
     </footer>
 
 
 
-
 </body>
-
 </html>
