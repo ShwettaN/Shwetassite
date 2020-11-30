@@ -5,22 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <style>
+        body{
+        color : red ;                 METHOD 1-to use CSS
+        }
+    </style> -->                        
+    <!--                             METHOD 2 to use CSS -->
+
+    <!-- <h1 style="color:red"> Heyy!! there,This is a component library </h1>  
+       -->
+
+    <!--                             METHOD 3  to use CSS
+        
+        creating a separate file and adding an external link -->
+
+       <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1> Heyy!! there,This is a component library </h1>
+    
+    <h1 id="mainh"> Heyy!! there,This is a component library </h1>
     <p>I am attending neogcamp and I wantomake a library which would make all my
         projects look good and consistent.</p>
 
     <hr>
 
     <h2>@Typography</h2>
-    <h1>This is the largest text</h1>
-    <h2>This is the second largest</h2>
-    <p> This is the normal text .This is free flowing and will wrap
+    <h1 class="para">This is the largest text</h1>
+    <h2 class="para">This is the second largest</h2>
+    <p class="para"> This is the normal text .This is free flowing and will wrap
         at the end like a paragraph.
     </p>
-    <small> This is relatively smaller text</small>
+    <small class="para"> This is relatively smaller text</small>
     <hr>
     <h2>@Container</h2>
 
