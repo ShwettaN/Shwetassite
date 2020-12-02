@@ -19,12 +19,12 @@ hr {
 }
 
 .container {
-    padding-left: 11rem;
+    padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .container-center {
-    max-width: 600px;
+    
     margin: auto;
 }
 
@@ -109,10 +109,17 @@ hr {
 }
 
 .section {
-    padding: 2rem;
+  
+    width: 650px;
+    border: 1px solid rgb(255, 255, 255);
+    /* border: radius 50px; */
+    margin:auto;
+    padding:2rem;
+     
 }
 
 .section h1 {
+    padding:0rem 1rem;
     text-align: center;
 
 }
@@ -127,6 +134,7 @@ hr {
     padding: 2rem 2rem;
     text-align: center;
     color: white;
+    margin:4rem 0rem 0rem 0rem;
 }
 
 .footer .link {
