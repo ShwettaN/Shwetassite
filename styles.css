@@ -250,4 +250,11 @@ hr {
     border-radius: 20%;
   }
 
+  .center {
+      margin:auto;
+      display:block;
+      text-align: center;
+
+  }
+
   
